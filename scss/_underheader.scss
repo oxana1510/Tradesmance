@@ -1,0 +1,95 @@
+.underheader{
+	position: relative;
+	background: -webkit-linear-gradient(135deg, #6033aa, #5d33af, #4c35c6, #2660de, #0692e8);
+	background: -o-linear-gradient(135deg, #6033aa, #5d33af, #4c35c6, #2660de, #0692e8);
+	background: linear-gradient(-45deg, #6033aa, #5d33af, #4c35c6, #2660de, #0692e8);
+	&:before{
+		position: absolute;
+		content: url(../img/man-top.png);
+		bottom: -0.2rem;
+		left: 0;
+
+	}
+	&:after{
+		position: absolute;
+		content: url(../img/device.png);
+		bottom: 9rem;
+		right: 0;
+
+	}
+	.container{
+		position: relative;
+		z-index: 2;
+		max-width: 96rem;
+		padding: 15rem 2rem;
+		text-align: center;
+	}
+	h1{
+		font: 5.7rem/5.5rem $font-bold1;
+		color: #fac43d;
+	}
+	h2{
+		font-size: 3.9rem;
+		line-height: 5.5rem;
+		color: #fff;
+		padding-bottom: 5rem;
+	}
+}
+
+
+
+@media screen and (max-width: 1095px){
+.underheader{
+	&:before{
+		left: -5rem;
+	}
+	&:after{
+		right: -5rem;
+	}
+}
+}
+@media screen and (max-width: 992px){
+.underheader{
+	&:before{
+		display: none;
+	}
+}
+}
+@media screen and(max-width: 768px){
+.underheader{
+	.container{
+		padding: 10rem 2rem;
+	}
+	h1{
+		font-size: 5rem;
+	}
+	h2{
+		font-size: 3.5rem;
+	}
+}
+}
+@media screen and(max-width: 576px){
+.underheader{
+	.container{
+		padding: 5rem 2rem;
+	}
+	h1{
+		font-size: 4rem;
+		line-height: 4rem;
+	}
+	h2{
+		font-size: 3rem;
+		line-height: 3.9rem;
+	}
+}
+}
+@media screen and(max-width: 480px){
+.underheader{
+	h1{
+		font-size: 3.8rem;
+	}
+	h2{
+		font-size: 2.8rem;
+	}
+}
+}

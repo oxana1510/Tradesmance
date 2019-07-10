@@ -1,0 +1,21 @@
+.block-whith-form{
+	background: #3e3e3e;
+	color: #fff;
+	.container{
+		padding: 9rem 2rem;
+		max-width: 95rem;
+	}
+	h3{
+		font: 3.4rem $font2;
+		text-align: center;
+		padding-bottom: 5rem;
+	}
+	.form-select select option{
+		color: #252525;
+	}
+}
+@media screen and(max-width: 768px){
+.block-whith-form .container{
+	padding: 5rem 2rem;
+}
+}

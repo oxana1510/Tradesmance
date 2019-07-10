@@ -1,0 +1,45 @@
+.coordinates{
+	position: relative;
+	background-size: cover;
+	padding-bottom: 53rem;
+	.container{
+		position: relative;
+		z-index: 2;
+		padding: 7.5rem 2rem 0;
+		text-align: center;
+	}
+	#map {
+		position: absolute;
+		width: 100%;
+        height: 100%;
+      }
+	h3{
+		font: 4.5rem $font2;
+		padding-bottom: 4rem;
+	}
+	.bth-link{
+		max-width: 31.2rem;
+		width: 100%;
+		height: 4.2rem;
+		background: #2166e1;
+		color: #fff;
+		border: 0.1rem solid #2166e1;
+		font: 2rem $font-bold1;
+		margin: auto;
+		&:hover{
+			color: #2166e1;
+			background: #fff;
+		}
+	}
+}
+@media screen and (max-width: 768px){
+.coordinates{
+	padding-bottom: 29rem;
+	.container{
+		padding: 5rem 2rem 0;
+	}
+	h3{
+		padding-bottom: 2rem;
+	}
+}
+}

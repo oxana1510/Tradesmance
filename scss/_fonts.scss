@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "fontello";
+  src: url("../fonts/fontello.eot?92604995");
+  src: url("../fonts/fontello.eot?92604995#iefix") format("embedded-opentype"),
+       url("../fonts/fontello.woff2?92604995") format("woff2"),
+       url("../fonts/fontello.woff?92604995") format("woff"),
+       url("../fonts/fontello.ttf?92604995") format("truetype"),
+       url("../fonts/fontello.svg?92604995#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+ 
+  font-variant: normal;
+  text-transform: none;
+ 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+ 
+.icon-down-open:before { content: "\e800"; } /* "" */
+.icon-down-dir:before { content: "\e801"; } /* "" */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {font-family: "HelveticaNeue55Roman";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/HelveticaNeue55Roman.eot");
+    src: url("../fonts/HelveticaNeue55Roman.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeue55Roman.woff2") format("woff2"),
+    url("../fonts/HelveticaNeue55Roman.woff") format("woff"),
+    url("../fonts/HelveticaNeue55Roman.ttf") format("truetype"),
+    url("../fonts/HelveticaNeue55Roman.svg#Helvetica Neue") format("svg");
+}
+@font-face {font-family: "HelveticaNeue45Light";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/HelveticaNeue45Light.eot");
+    src: url("../fonts/HelveticaNeue45Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeue45Light.woff2") format("woff2"),
+    url("../fonts/HelveticaNeue45Light.woff") format("woff"),
+    url("../fonts/HelveticaNeue45Light.ttf") format("truetype"),
+    url("../fonts/HelveticaNeue45Light.svg#Helvetica Neue LT Std") format("svg");
+}
+@font-face {font-family: "TahomaRegular";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/TahomaRegular.eot");
+    src: url("../fonts/TahomaRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/TahomaRegular.woff2") format("woff2"),
+    url("../fonts/TahomaRegular.woff") format("woff"),
+    url("../fonts/TahomaRegular.ttf") format("truetype"),
+    url("../fonts/TahomaRegular.svg#Tahoma") format("svg");
+}
+@font-face {font-family: "HelveticaNeueBold";
+    font-display: swap;
+    src: url("../fonts/HelveticaNeueCyr-Bold.eot");
+    src: url("../fonts/HelveticaNeueCyr-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff"),
+    url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {font-family: "TahomaBold";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/TahomaBold.eot");
+    src: url("../fonts/TahomaBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/TahomaBold.woff2") format("woff2"),
+    url("../fonts/TahomaBold.woff") format("woff"),
+    url("../fonts/TahomaBold.ttf") format("truetype"),
+    url("../fonts/TahomaBold.svg#Tahoma") format("svg");
+}
+
+$font1: "HelveticaNeue55Roman", sans-serif;
+$font2: "HelveticaNeue45Light", sans-serif;
+$font3: "TahomaRegular", sans-serif;
+$font-bold1: "HelveticaNeueBold", sans-serif;
+$font-bold2: "TahomaBold", sans-serif;

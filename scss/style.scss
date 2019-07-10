@@ -1,0 +1,76 @@
+@import "fonts";
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+:root{
+	font-size: 10px;
+}
+body{
+	overflow-x: hidden;
+}
+.wrapper{
+	min-width: 320px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family: $font1;	
+	overflow-x: hidden;
+	color: #000;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+h1, 
+h2,
+h3,
+h4{
+	font-weight: normal;
+}
+button,
+select,
+textarea,
+button[type=submit],
+input[type=text],
+input[type=submit]{
+      -webkit-appearance: none;
+    	-moz-appearance: none;
+    		appearance: none;
+     border-radius: 0;
+     border: none;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+}
+.bth-link{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	width: 15.2rem;
+	height: 3.8rem;
+	font: 1.4rem $font-bold1;
+	border-radius: 1.9rem;
+}
+
+@import "header";
+@import "underheader";
+@import "form-select";
+@import "text-block";
+@import "block-whith-form";
+@import "block-icon";
+@import "course";
+@import "coordinates";
+@import "faq";
+@import "footer";
